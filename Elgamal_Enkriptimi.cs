@@ -22,7 +22,7 @@ namespace CryptographyAlgorithms
         private void ButtonEncryption_Click(object sender, EventArgs e)
         {
             //Hyrja
-            BigInteger Message = BigInteger.Parse(txtboxMesazhi.Text);
+            BigInteger Mesazhi = BigInteger.Parse(txtboxMesazhi.Text);
 
             Int32 PjesaPareQelesitPublik = Int32.Parse(txtboxPjesaPareQelesitPublik.Text);
             Int32 PjesaDyteQelesitPublik = Int32.Parse(txtboxPjesaDyteQelesitPublik.Text);
